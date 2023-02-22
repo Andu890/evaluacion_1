@@ -1,10 +1,10 @@
 # evaluacion_1
 //Test para evaluar si una persona cumple con ciertas características para que no le vuelvan a romper el corazón.
-#include <stdio.h>
-#include <stdlib.h>
 
-int main(){
+    #include <stdio.h>
+    #include <stdlib.h>
 
+    int main(){
 
     printf("A ver que tan preparado estas para continuar \n");
     //Pregunta 1
@@ -77,11 +77,11 @@ int main(){
     if (respuesta == 'b'){
         puntos += 1;
     }
- if (puntos >=80){
+    if (puntos >=80){
     printf("\nValoren el amor muchachos, estás listo para esto");
- }
- else {
+    }
+    else {
     printf ("\nYa ni pa la muela broder, ¿como vas a sacar menos de 80 aqui? ");
- }
+    }
     return 0;
-}
+    }
