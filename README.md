@@ -10,28 +10,28 @@
     printf("A ver que tan preparado estas para continuar \n");
     //Pregunta 1
     printf("1.	¿Que buscas en una relacion? \n");
-    printf("a) A) A alguien que me complemente al cien por cien y que cumpla con mi prototipo. \n  B) A alguien dispuesto a aprender de la relacion y hacerme mejorar a mi tambien. \n");
+    printf("A) A alguien que me complemente al cien por cien y que cumpla con mi prototipo. \n  B) A alguien dispuesto a aprender de la relacion y hacerme mejorar a mi tambien. \n");
     scanf(" %c", &respuesta);
     if (respuesta == 'B'){
         puntos += 1;
     }
      //Pregunta 2
     printf("2.	Cuando piensas en tu ex, ¿como te sientes? \n");
-    printf("a) A) Lo pase mal y todavía le guardo algo de rencor, pero ya no me obsesiona. \n B) Me entran todos los males en orden. A veces incluso ando de mitotero en sus redes sociales a ver si le va mejor que a mi. \n");
+    printf("A) Lo pase mal y todavía le guardo algo de rencor, pero ya no me obsesiona. \n B) Me entran todos los males en orden. A veces incluso ando de mitotero en sus redes sociales a ver si le va mejor que a mi. \n");
     scanf(" %c", &respuesta);
     if (respuesta == 'A'){
         puntos += 1;
     }
      //Pregunta 3
     printf("3.	¿Te gusta pasar tiempo a solas? \n");
-    printf("a) A) No mucho. Me agobio o me aburro. Por eso siempre quedo con amigos. \n B) Muchas veces, si. Para mi es importante cuidarme y dedicar tiempo a mis aficiones mas alla de socializar con los demas. \n");
+    printf("A) No mucho. Me agobio o me aburro. Por eso siempre quedo con amigos. \n B) Muchas veces, si. Para mi es importante cuidarme y dedicar tiempo a mis aficiones mas alla de socializar con los demas. \n");
     scanf(" %c", &respuesta);
     if (respuesta == 'B'){
         puntos += 1;
     }
      //Pregunta 4
     printf("4.	Para ti una pareja es... \n");
-    printf("a) A) Alguien que me alegre cuando estoy mal. Si no es capaz de animarme, es que algo va mal. \n B)	Alguien que me anime a mi mismo a cuidarme. Quiero que me apoye, pero ni puede ni debe solucionar todos mis problemas. \n");
+    printf("A) Alguien que me alegre cuando estoy mal. Si no es capaz de animarme, es que algo va mal. \n B)	Alguien que me anime a mi mismo a cuidarme. Quiero que me apoye, pero ni puede ni debe solucionar todos mis problemas. \n");
     scanf(" %c", &respuesta);
     if (respuesta == 'B'){
         puntos += 1;
@@ -78,7 +78,7 @@
     if (respuesta == 'b'){
         puntos += 1;
     }
-    if (puntos >=80){
+    if (puntos >=70){
     printf("\nValoren el amor muchachos, estás listo para esto");
     }
     else {
