@@ -2,10 +2,11 @@
 //Test para evaluar si una persona cumple con ciertas características para que no le vuelvan a romper el corazón.
 
     #include <stdio.h>
-    #include <stdlib.h>
 
     int main(){
-
+    int puntos = 0;
+    char respuesta;
+    
     printf("A ver que tan preparado estas para continuar \n");
     //Pregunta 1
     printf("1.	¿Que buscas en una relacion? \n");
